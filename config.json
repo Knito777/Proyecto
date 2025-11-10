@@ -1,0 +1,36 @@
+{
+  "project_name": "students_performance_mlops",
+  "data": {
+    "raw_dataset": "Base_de_datos.csv",
+    "clean_dataset": "mlops_pipeline/data/clean_students.csv"
+  },
+  "features": {
+    "target": "math_score",
+    "numeric": [
+      "reading_score",
+      "writing_score"
+    ],
+    "categorical": [
+      "gender",
+      "race_ethnicity",
+      "parental_level_of_education",
+      "lunch",
+      "test_preparation_course"
+    ]
+  },
+  "paths": {
+    "eda_reports": "mlops_pipeline/reports",
+    "metrics_report": "reports/model_metrics.csv",
+    "drift_report": "reports/drift_report.csv",
+    "drift_plot": "reports/drift_math_score.png",
+    "model_store": "model_store",
+    "preprocessor": "model_store/preprocessor.joblib",
+    "train_set": "model_store/train_set.pkl",
+    "test_set": "model_store/test_set.pkl",
+    "best_model": "model_store/best_model.pkl"
+  },
+  "training": {
+    "test_size": 0.2,
+    "random_state": 42
+  }
+}
