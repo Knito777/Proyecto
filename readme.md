@@ -160,7 +160,7 @@ La imagen ejecuta `uvicorn mlops_pipeline.src.model_deploy:app --host 0.0.0.0 --
    [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=students_performance_mlops&metric=alert_status)](https://sonarcloud.io/dashboard?id=students_performance_mlops)
    ```
 
-## Checklist de la rúbrica
+## Checklist
 
 - ✅ **Estructura y configuraciones**: carpetas mínimas respetadas, `requirements.txt` y guías de entorno (PowerShell + bash + `set_up.bat`).
 - ✅ **Análisis de datos / EDA**: descripción del dataset, tipos, nulos unidos, eliminación de columnas auxiliares (`record_id`), conversión de tipos, `describe()` post-corrección, histogramas/boxplots, countplots, tablas pivote, estadísticas (media/mediana/moda/rango/IQR/var/std/skew/kurtosis), análisis de distribución, pairplots, correlaciones, relaciones con el target, reglas y features sugeridos.
