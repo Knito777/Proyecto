@@ -176,3 +176,4 @@ La imagen ejecuta `uvicorn mlops_pipeline.src.model_deploy:app --host 0.0.0.0 --
 - Uso académico. Respeta la licencia del dataset y del repositorio donde se aloje.
 
 ---
+
