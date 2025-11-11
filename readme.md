@@ -176,4 +176,3 @@ La imagen ejecuta `uvicorn mlops_pipeline.src.model_deploy:app --host 0.0.0.0 --
 - Uso académico. Respeta la licencia del dataset y del repositorio donde se aloje.
 
 ---
-¿Siguiente paso? Conectar el pipeline a CI/CD completo (lint, pruebas, Sonar, despliegue) y llevar métricas de drift a un tablero corporativo (Grafana/Prometheus) para monitoreo continuo.
